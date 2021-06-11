@@ -122,7 +122,6 @@ const confirma = () => {
             etapa: etapas[etapaAtual].titulo,
             voto: 'Branco'
         })
-        alert('Voto Branco finalizado');
     } else if (numero.length === etapas[etapaAtual].numeros) {
         votoConfirmado = true;
         votar({
