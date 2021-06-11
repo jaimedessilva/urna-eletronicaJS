@@ -1,5 +1,5 @@
-#Projeto Urna Eletronica 
+# Projeto Urna Eletronica 
 
-##Tecnologias: Javascript, HTML, CSS
+## Tecnologias: HTML, CSS, Javascript
 
 Candidatos HQ
