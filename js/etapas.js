@@ -1,5 +1,5 @@
 let etapas = [{
-            titulo: 'VEREADOR',
+            titulo: 'DEPUTADO',
             numeros: 5,
             candidatos: [{
                     numero: '88991',
@@ -22,7 +22,7 @@ let etapas = [{
             ]
         },
         {
-            titulo: 'PREFEITO',
+            titulo: 'GOVERNADOR',
             numeros: 2,
             candidatos: [{
                     numero: '99',
@@ -48,25 +48,3 @@ let etapas = [{
 
         }
     ] //End Array
-
-let n = '99'
-let candidato = ''
-let atual = 0
-
-etapas.forEach(etapa => {
-        etapa.candidatos.forEach((item) => {
-            if (item.numero === n)
-                return candidato = item
-        })
-    })
-    //console.log(candidato)
-    //console.log(etapas[atual].numeros)
-    /* 
-    etapas[atual].candidatos.filter(item => {
-        //console.log(item)
-    }) */
-
-/* etapas.forEach((etapa) => {
-    console.log(etapa.titulo)
-    etapa.candidatos.forEach(cand => console.log(cand.nome, cand.numero))
-}) */

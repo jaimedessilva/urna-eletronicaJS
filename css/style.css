@@ -200,3 +200,11 @@
         cursor: pointer;
         box-shadow: 3px 3px 0px #555;
     }
+    
+    .rodape {
+        position: absolute;
+        bottom: 50px;
+        font-size: 22px;
+        font-weight: 250;
+        color: #555;
+    }
