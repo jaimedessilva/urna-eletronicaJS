@@ -6,18 +6,24 @@ let etapas = [{
                     nome: 'John Logan',
                     partido: 'XMAN',
                     fotos: [
-                        { url: '889911.jpg', legenda: 'Vereador', small: false }
-                    ],
-                    votos: 0
+                        { url: '889911.jpg', legenda: 'Deputado' }
+                    ]
                 },
                 {
                     numero: '99881',
                     nome: 'K Lobo',
                     partido: 'DC Mercenarios',
                     fotos: [
-                        { url: '998811.jpg', legenda: 'Vereador', small: false }
+                        { url: '998811.jpg', legenda: 'Deputado' }
+                    ]
+                },
+                {
+                    numero: '14151',
+                    nome: 'Santiago Salomao',
+                    partido: 'Tanga Frouxa',
+                    fotos: [
+                        { url: 'pp.jpg', legenda: 'Dormidor de até 12:00' }
                     ],
-                    votos: 0
                 },
             ]
         },
@@ -30,8 +36,8 @@ let etapas = [{
                     partido: 'LJA',
                     vice: 'Bat',
                     fotos: [
-                        { url: '99.jpeg', legenda: 'Prefeito' },
-                        { url: '99_1.png', legenda: 'Vice-Prefeito' }
+                        { url: '99.jpeg', legenda: 'Governador' },
+                        { url: '99_1.png', legenda: 'Vice-Governador' }
                     ]
                 },
                 {
@@ -40,8 +46,17 @@ let etapas = [{
                     partido: 'SEVEN',
                     vice: 'Black',
                     fotos: [
-                        { url: '88.jpg', legenda: 'Prefeito' },
-                        { url: '88_1.jpg', legenda: 'Vice-Prefeito' }
+                        { url: '88.jpg', legenda: 'Governador' },
+                        { url: '88_1.jpg', legenda: 'Vice-Governador' }
+                    ]
+                },
+                {
+                    numero: '77',
+                    nome: 'Jaime Silva',
+                    partido: 'SSJ',
+                    vice: 'Black',
+                    fotos: [
+                        { url: 'editada.jpg', legenda: 'Governador' }
                     ]
                 },
             ]

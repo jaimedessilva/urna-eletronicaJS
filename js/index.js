@@ -124,11 +124,12 @@ const confirma = () => {
         })
     } else if (numero.length === etapas[etapaAtual].numeros) {
         votoConfirmado = true;
+
         votar({
             etapa: etapas[etapaAtual].titulo,
             nome: candidatoVoto.nome,
             numero: candidatoVoto.numero,
-            voto: 0 + 1
+            voto: 0 + 2
         })
     }
 
